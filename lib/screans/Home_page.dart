@@ -5,7 +5,7 @@ import 'package:l_touk/screans/Family_members.dart';
 import 'package:l_touk/screans/Numbers.dart';
 import 'package:l_touk/screans/phrases.dart';
 import '../models//category_class_homepage.dart';
-import 'package:l_touk/screans/Colors.dart';
+import 'package:l_touk/screans/Colorsitem.dart';
 class homepage extends StatelessWidget {
   const homepage({super.key});
   @override
@@ -109,7 +109,7 @@ class homepage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return Color();
+                          return ColorItem();
                         }),
                       );
                     });
@@ -134,7 +134,7 @@ class homepage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return phrase();
+                          return Phrase();
                         }),
                       );
                     });

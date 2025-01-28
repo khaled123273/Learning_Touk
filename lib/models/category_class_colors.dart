@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
-class Color_Card extends StatelessWidget {
-  const Color_Card ({required this.image,required this.text1,required this.text2,required this.audioPath});
+class ColorCard extends StatelessWidget {
+  const ColorCard ({required this.image,required this.text1,required this.text2,required this.audioPath});
   final String image;
   final String text1;
   final String text2;

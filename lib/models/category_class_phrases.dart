@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
-class phrases_card extends StatelessWidget {
-  const phrases_card ({required this.text1,required this.text2,required this.audioPath});
+class phrasesCard extends StatelessWidget {
+  const phrasesCard ({required this.text1,required this.text2,required this.audioPath});
   final String text1;
   final String text2;
   final String audioPath;
